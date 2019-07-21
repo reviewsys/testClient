@@ -8,6 +8,6 @@ import (
 
 func init() {
 	// Add client generated commands to cobra's root cmd.
-	cmd.RootCmd.AddCommand(pb.UserClientCommand)
-	cmd.RootCmd.AddCommand(pb.ServiceClientCommand)
+	cmd.RootCmd.AddCommand(pb.BackendClientCommand)
+	cmd.RootCmd.AddCommand(pb.UserServiceClientCommand)
 }

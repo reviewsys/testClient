@@ -31,7 +31,7 @@ import (
 var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
-var rootCmd = &cobra.Command{
+var RootCmd = &cobra.Command{
 	Use:   "testClient",
 	Short: "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
